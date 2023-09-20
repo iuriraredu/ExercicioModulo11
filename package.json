@@ -1,0 +1,24 @@
+{
+  "name": "exerciciomodulo11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuriraredu/ExercicioModulo11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuriraredu/ExercicioModulo11/issues"
+  },
+  "homepage": "https://github.com/iuriraredu/ExercicioModulo11#readme",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "@faker-js/faker": "^8.1.0"
+  }
+}
