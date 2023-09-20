@@ -5,17 +5,17 @@ describe('Funcionalidade Página de Produtos', () => {
 
     it('Deve selecionar o primeiro produto da lista', () => {
         cy.get('[class="product-block grid"]').first().click();
-        cy.url().should('contain', '/product/')
+        cy.url().should('contain', '/product/');
     });
 
     it('Deve selecionar o ultimo produto da lista', () => {
         cy.get('[class="product-block grid"]').last().click();
-        cy.url().should('contain', '/product/')
+        cy.url().should('contain', '/product/');
     });
 
     it('Deve selecionar o quinto produto da lista', () => {
         cy.get('[class="product-block grid"]').eq(4).click();
-        cy.url().should('contain', '/product/')
+        cy.url().should('contain', '/product/');
     });
     
     it('Deve adicionar um produto ao carrinho ', () => {
